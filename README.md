@@ -16,8 +16,6 @@ pip install -r requirements.txt
 
 If you are going to deploy this to AWS (can skip until you do)
 
-(login user testuser)[https://teamoptimization.signin.aws.amazon.com/console]
-
 Edit `~/.aws/config` to become something like:
 
 ```
@@ -32,7 +30,7 @@ output=json
 
 ### Before development
 
-If not already in virtual environment (indicated by change in prompt to show "(venv39)" before your usual prompt):
+If not already in virtual environment (indicated by change in prompt to show "(venv)" before your usual prompt):
 
 ```
 source venv/bin/activate
